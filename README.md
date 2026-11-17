@@ -4,7 +4,7 @@ An interactive Power BI report on AtliQ sales data, built on a star-schema data 
 
 ## Dashboard Preview
 
-![AtliQ sales dashboard](screenshots/dashboard.png)
+![AtliQ sales dashboard](screenshots/photo1.png)
 
 **Headline numbers:** 986.62M total revenue and 2M units sold.
 
@@ -16,18 +16,18 @@ An interactive Power BI report on AtliQ sales data, built on a star-schema data 
 
 ## Data Model
 
-![AtliQ data model](screenshots/data-model.png)
+![AtliQ data model](screenshots/photo2.png)
 
 The report uses a star schema with one fact table and four dimension tables, each linked one-to-many.
 
-| Table | Role | Main columns |
-|---|---|---|
-| `sales transactions` | Fact | `sales_amount`, `correct_sales_amount`, `sales_qty`, `currency`, `order_date`, plus keys for customer, market and product |
-| `sales customers` | Dimension | `customer_code`, customer name, `customer_type` |
-| `sales products` | Dimension | `product_code`, `product_type` |
-| `sales markets` | Dimension | `markets_code`, `markets_name`, `zone` |
-| `sales date` | Dimension | `date`, `cy_date`, `date_yy_mmm`, `month_name`, `year` |
-| `base measures` | Measures | Holds the DAX measures for revenue and sales quantity |
+| Table                | Role      | Main columns                                                                                                              |
+| -------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `sales transactions` | Fact      | `sales_amount`, `correct_sales_amount`, `sales_qty`, `currency`, `order_date`, plus keys for customer, market and product |
+| `sales customers`    | Dimension | `customer_code`, customer name, `customer_type`                                                                           |
+| `sales products`     | Dimension | `product_code`, `product_type`                                                                                            |
+| `sales markets`      | Dimension | `markets_code`, `markets_name`, `zone`                                                                                    |
+| `sales date`         | Dimension | `date`, `cy_date`, `date_yy_mmm`, `month_name`, `year`                                                                    |
+| `base measures`      | Measures  | Holds the DAX measures for revenue and sales quantity                                                                     |
 
 ## Key Insights
 
@@ -47,10 +47,10 @@ The report uses a star schema with one fact table and four dimension tables, eac
 
 ## Files
 
-| File | Description |
-|---|---|
-| `atliq_analysis.pbix` | Power BI report |
-| `screenshots/` | Images used in this README |
+| File                  | Description                |
+| --------------------- | -------------------------- |
+| `atliq_analysis.pbix` | Power BI report            |
+| `screenshots/`        | Images used in this README |
 
 ## How to Open
 
