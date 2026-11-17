@@ -4,7 +4,7 @@ An interactive Power BI report on AtliQ sales data, built on a star-schema data 
 
 ## Dashboard Preview
 
-![AtliQ sales dashboard](screenshots/photo1.png)
+![AtliQ sales dashboard](screenshots/dashboard.png)
 
 **Headline numbers:** 986.62M total revenue and 2M units sold.
 
@@ -16,7 +16,7 @@ An interactive Power BI report on AtliQ sales data, built on a star-schema data 
 
 ## Data Model
 
-![AtliQ data model](screenshots/photo2.png)
+![AtliQ data model](screenshots/datamodel.png)
 
 The report uses a star schema with one fact table and four dimension tables, each linked one-to-many.
 
