@@ -16,7 +16,7 @@ An interactive Power BI report on AtliQ sales data, built on a star-schema data 
 
 ## Data Model
 
-![AtliQ data model](screenshots/datamodel.png)
+![AtliQ data model](screenshots/data-model.png)
 
 The report uses a star schema with one fact table and four dimension tables, each linked one-to-many.
 
